@@ -940,8 +940,8 @@ a.footer__info__link{
     .menu__list {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         position: fixed;
         top: 0;
         right: 0;
@@ -950,7 +950,7 @@ a.footer__info__link{
         z-index: 999;
         width: 420px;
         height: 100vh;
-        padding: 30px;
+        padding: 0px 15px 15px;
         background: rgba(0, 0, 0, 0.6);
         backdrop-filter: blur(4px);
         transform: translate3d(420px, 0px, 0px);
